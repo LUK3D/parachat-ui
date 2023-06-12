@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 import {UserIcon, MicrophoneIcon, ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/vue/24/outline"
-import UserAvatar from "../userAvatar.vue";
+import UserAvatar from "../UserAvatar.vue.js";
 import DropDown from "../DropDown.vue";
 import ServersList from "./ServersList.vue";
 
@@ -10,7 +10,7 @@ import { IVoiceChannels } from "./types"
 
 let channels: Array<IVoiceChannels> = [{image:marioChatting, label:'Mario Chatting', active:true}, {image:proPlayer, label:'Pró Player'}];
 
-const logToConsole = (e:any)=>{
+function logToConsole(e:any){
     console.warn(e);
 }
 </script>
