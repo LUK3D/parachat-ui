@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import UserAvatar from "../UserAvatar.vue";
 import avatar01 from "../../assets/avatars/avatar-01.png"
 import avatar02 from "../../assets/avatars/avatar02.png"
