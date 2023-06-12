@@ -1,5 +1,5 @@
-<script lang="ts" setup>
-import UserAvatar from "../UserAvatar.vue.js";
+<script setup>
+import UserAvatar from "../UserAvatar.vue";
 import avatar01 from "../../assets/avatars/avatar-01.png"
 import avatar02 from "../../assets/avatars/avatar02.png"
 
@@ -18,5 +18,7 @@ function logToConsole(e:any){
         </UserAvatar>
     </div>
 </template>
-<style lang="">
+<style >
 </style>
+
+

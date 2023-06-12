@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup>
 import Layout from './components/Layout.vue';
 import SidePanel from './components/sidePanel/SidePanel.vue'
 </script>

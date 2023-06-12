@@ -1,6 +1,6 @@
-<script lang="ts" setup>
+<script setup>
 import {UserIcon, MicrophoneIcon, ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/vue/24/outline"
-import UserAvatar from "../UserAvatar.vue.js";
+import UserAvatar from "../UserAvatar.vue";
 import DropDown from "../DropDown.vue";
 import ServersList from "./ServersList.vue";
 
