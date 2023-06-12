@@ -6,7 +6,7 @@ import ServersList from "./ServersList.vue";
 
 import marioChatting from "../../assets/avatars/Mario Chatting.png"
 import proPlayer from "../../assets/avatars/proPlayer.png"
-import { IVoiceChannels } from "./types"
+import { IVoiceChannels } from "../../types"
 
 let channels: Array<IVoiceChannels> = [{image:marioChatting, label:'Mario Chatting', active:true}, {image:proPlayer, label:'Pró Player'}];
 

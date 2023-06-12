@@ -6,6 +6,7 @@ import avatar02 from "../../assets/avatars/avatar02.png"
 function logToConsole(e:any){
     console.warn(e);
 }
+
 </script>
 
 <template lang="">
